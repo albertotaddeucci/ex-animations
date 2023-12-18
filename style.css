@@ -110,3 +110,9 @@
     transition: 3s;
 }
 
+.ex-8-img:hover{
+    border-radius: 30px;
+    filter: sepia(70%) contrast(100%);
+    transition: 2s;
+}
+
