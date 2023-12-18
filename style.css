@@ -138,3 +138,24 @@
     }
 }
 
+.ex-11-icon:hover{
+    animation-name: hoverotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes hoverotate{
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    90%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
