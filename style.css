@@ -103,3 +103,10 @@
 .ex-6-img:hover{
     filter: grayscale(1)
 }
+
+
+.ex-7-img:hover{
+    filter: grayscale(1) blur(3px);
+    transition: 3s;
+}
+
